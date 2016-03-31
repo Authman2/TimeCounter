@@ -1,5 +1,5 @@
 # TimeCounter
-A simple timer that can be used in IOS and OSX applications. Once you drag the "Counters" file into your project, you can create new objects of TCCountUp and TCCountDown, for doing their respective actions.
+An IOS framework that can be used for adding a simple timer into IOS projects.
 
 - To actually display the timer on screen, create a UILabel either in the storyboard or in code. Then set the Counter object's timeLabel to the label that you just created.
 - minutes & seconds: The starting time for the timer. These are public instance variables, so you can easily set these to whatever time you want the timer to start from.
