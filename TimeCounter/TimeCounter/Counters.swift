@@ -5,6 +5,28 @@
 //  Created by Adeola Uthman on 7/20/15.
 //  Copyright (c) 2015 Adeola Uthman. All rights reserved.
 //
+// The MIT License (MIT)
+//
+// Copyright (c) 2015 Adeola Uthman
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+//
 
 import Foundation
 import UIKit
@@ -15,7 +37,7 @@ public class TCCountUp : NSObject {
     private var countUp = NSTimer()
     public var minutes: Int = 0
     public var seconds : Int = 0
-    private var backSeconds: Int = 0
+    private var totalSeconds: Int = 0
     private var startStopWatch: Bool = true
     
     public var timeLabel: UILabel! = UILabel()
@@ -34,7 +56,7 @@ public class TCCountUp : NSObject {
     func actuallyCountUp(){
         if countUp.valid == true {
             seconds++
-            backSeconds++
+            totalSeconds++
             
             if seconds == 60 {
                 minutes += 1
@@ -73,13 +95,13 @@ public class TCCountUp : NSObject {
         countUp.invalidate()
         minutes = 0
         seconds = 0
-        backSeconds = 0
+        totalSeconds = 0
         
         timeLabel.text = "Time: \(minutes):\(seconds)"
     }
     
-    public func getBackSeconds() -> Int {
-        return backSeconds
+    public func getTotalSeconds() -> Int {
+        return totalSeconds
     }
 }
 
@@ -88,7 +110,7 @@ public class TCCountDown : NSObject {
     private var countDown = NSTimer()
     public var minutes = Int()
     public var seconds = Int()
-    private var backSeconds = Int()
+    private var totalSeconds = Int()
     private var startStopWatch: Bool = true
     
     public var timeLabel: UILabel! = UILabel()
@@ -107,7 +129,7 @@ public class TCCountDown : NSObject {
     func actuallyCountDown(){
         if countDown.valid == true {
             seconds -= 1
-            backSeconds -= 1
+            totalSeconds -= 1
             
             if seconds < 0 {
                 minutes -= 1
@@ -117,7 +139,7 @@ public class TCCountDown : NSObject {
             if minutes == 0 && seconds <= 0 {
                 minutes = 0
                 seconds = 0
-                backSeconds = 0
+                totalSeconds = 0
                 self.stopCountingDown()
             }
             
@@ -152,15 +174,14 @@ public class TCCountDown : NSObject {
         timeLabel.text = "Time: \(minutes):\(seconds)"
     }
     public func resetTotalSeconds(seconds: Int) {
-        self.backSeconds = seconds
+        self.totalSeconds = seconds
     }
     
-    
-    //Getters and Setters
-    public func getBackSeconds() -> Int {
-        return backSeconds
+    /**  */
+    public func getTotalSeconds() -> Int {
+        return totalSeconds
     }
-    public func setBackSeconds(backSeconds: Int) {
-        self.backSeconds = backSeconds
+    public func setTotalSeconds(ttlSeconds: Int) {
+        self.totalSeconds = ttlSeconds
     }
 }
