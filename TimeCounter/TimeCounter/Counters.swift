@@ -3,7 +3,7 @@
 //  TimeCounter
 //
 //  Created by Adeola Uthman on 7/20/15.
-//  Copyright (c) 2015 Adeola Uthman. All rights reserved.
+//  Copyright (c) 2014-2015 Adeola Uthman. All rights reserved.
 //
 // The MIT License (MIT)
 //
@@ -45,7 +45,7 @@ public class TCCountUp : NSObject {
     
     
     public func startCountingUp() {
-
+        
         if startStopWatch == true {
             countUp = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("actuallyCountUp"), userInfo: nil, repeats: true)
             
@@ -78,7 +78,7 @@ public class TCCountUp : NSObject {
             if seconds > 9 && minutes <= 9 {
                 stopwatchString = "Time: 0\(minutes):\(seconds)"
             }
-                
+            
             timeLabel.text = stopwatchString
         }
     }
