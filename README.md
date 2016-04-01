@@ -1,6 +1,10 @@
 # TimeCounter
 An IOS framework that can be used for adding a simple timer into IOS projects.
 
+# How To
+
+
+# Methods
 - To actually display the timer on screen, create a UILabel either in the storyboard or in code. Then set the Counter object's timeLabel to the label that you just created.
 - minutes & seconds: The starting time for the timer. These are public instance variables, so you can easily set these to whatever time you want the timer to start from.
 - startCountingUp: Tells the timer to start counting up from 00:00, or "minutes" and "seconds" if they were specified.
