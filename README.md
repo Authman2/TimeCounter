@@ -1,5 +1,5 @@
 # TimeCounter
-An IOS framework that can be used for adding a simple timer into IOS projects.
+An IOS framework that can be used for adding a simple timer into IOS projects. Download the framework folder and import it into your project.
 
 - Year: 2015
 - Language: Swift
