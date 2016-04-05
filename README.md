@@ -1,6 +1,11 @@
 # TimeCounter
 An IOS framework that can be used for adding a simple timer into IOS projects.
 
+- Year: 2015
+- Language: Swift
+- Programmer: Adeola Uthman
+
+
 # How To
 1. First, make sure that there is a UILabel in your project to display the time. For example, you can create them in the storyboard like I have below.
 ![Alt text](https://github.com/Authman2/TimeCounter/blob/master/TutorialImages/CreateLabelsInStoryboard.png)
@@ -24,7 +29,3 @@ An IOS framework that can be used for adding a simple timer into IOS projects.
 - reset: Resets the timer to 00:00 if counting up and to whatever the minutes and seconds are that were specified if counting down.
 - getTotalSeconds: Returns the seconds that have been counting in the background (hence the name BackSeconds). This is the total number of seconds that have passed since the timer started.
 - setTotalSeconds: Sets the total number of seconds to count from. Only used when counting down.
-
-- Year: 2015
-- Language: Swift
-- Programmer: Adeola Uthman
