@@ -2,7 +2,17 @@
 An IOS framework that can be used for adding a simple timer into IOS projects.
 
 # How To
-
+1. First, make sure that there is a UILabel in your project to display the time. For example, you can create them in the storyboard like I have below.
+![Alt text](https://github.com/Authman2/TimeCounter/blob/master/TutorialImages/CreateLabelsInStoryboard.png)
+2. Next, create a TimeCounter object for whichever kind of timer you want to use.
+![Alt text](https://github.com/Authman2/TimeCounter/blob/master/TutorialImages/CreatingTimerObjects.png)
+3. Then, make sure that there is a reference to the UILabels you created earlier to display the timer.
+![Alt text](https://github.com/Authman2/TimeCounter/blob/master/TutorialImages/CreatingLabelsToDisplayTime.png)
+4. Once you have that, you must tell the TimeCounter object which UILabel it should use to display the timer. This can be done in the viewDidLoad method, for example.
+![Alt text](https://github.com/Authman2/TimeCounter/blob/master/TutorialImages/SpecifyTimeLabel.png)
+5. Now you are ready to use your timer! All you have to do now is right these few lines of code for each timer.
+![Alt text](https://github.com/Authman2/TimeCounter/blob/master/TutorialImages/CountingUp.png)
+![Alt text](https://github.com/Authman2/TimeCounter/blob/master/TutorialImages/CountingDown.png)
 
 # Methods
 - To actually display the timer on screen, create a UILabel either in the storyboard or in code. Then set the Counter object's timeLabel to the label that you just created.
