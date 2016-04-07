@@ -15,7 +15,7 @@ An IOS framework that can be used for adding a simple timer into IOS projects. D
 ![Alt text](https://github.com/Authman2/TimeCounter/blob/master/TutorialImages/CreatingLabelsToDisplayTime.png)
 4. Once you have that, you must tell the TimeCounter object which UILabel it should use to display the timer.
 ![Alt text](https://github.com/Authman2/TimeCounter/blob/master/TutorialImages/SpecifyTimeLabel.png)
-5. Now you are ready to use your timer! All you have to do is right these few lines of code for each timer.
+5. Now you are ready to use your timer! All you have to do is write these few lines of code for each timer.
 ![Alt text](https://github.com/Authman2/TimeCounter/blob/master/TutorialImages/CountingUp.png)
 ![Alt text](https://github.com/Authman2/TimeCounter/blob/master/TutorialImages/CountingDown.png)
 
