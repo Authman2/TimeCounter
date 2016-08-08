@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/TimeCounter.swiftmodule/arm.swiftdoc</key>
 		<data>
-		mCz3+ASy4V8ehnSJgSVd8DqGzIs=
+		d94198FXtizqJUL8yN1+vjBdkwA=
 		</data>
 		<key>Modules/TimeCounter.swiftmodule/arm.swiftmodule</key>
 		<data>
-		RUdsNAgZlXoHus3n4d85cQVaaQw=
+		RcGVn+KbEteJk1GaIP3hwwSjanc=
 		</data>
 		<key>Modules/TimeCounter.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/TimeCounter.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		qbOsJd0l4YzqwxI94C2KTB1RRtQ=
+		qWmSqXKFy58b3AD+19SmONYqVRY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,22 +65,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mCz3+ASy4V8ehnSJgSVd8DqGzIs=
+			d94198FXtizqJUL8yN1+vjBdkwA=
 			</data>
 			<key>hash2</key>
 			<data>
-			+h2uytfhYP/iYRQ7twY0DYH8+zJhHS3Rdg9bJsKSJpY=
+			SwNJ3oc9a/VCkNt2w3Gu1fPV6bV/DAhsoqg/LO8098Y=
 			</data>
 		</dict>
 		<key>Modules/TimeCounter.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RUdsNAgZlXoHus3n4d85cQVaaQw=
+			RcGVn+KbEteJk1GaIP3hwwSjanc=
 			</data>
 			<key>hash2</key>
 			<data>
-			ratqygRWnzBfqR0dCb0T2Bk1VOq1k3ljyT3PA+/NSvA=
+			Aw9Sb3/lSlUNbZ3y00vG3ZZiXxh9ttfv/yDiHZ8QXWs=
 			</data>
 		</dict>
 		<key>Modules/TimeCounter.swiftmodule/arm64.swiftdoc</key>
@@ -98,11 +98,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qbOsJd0l4YzqwxI94C2KTB1RRtQ=
+			qWmSqXKFy58b3AD+19SmONYqVRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			7ahRV3UUN+LjvRNUZXydPEGE69OKJ4IZePmC/kTrtyw=
+			j5pMvJXRsmjqlB57LnB/F8yTO8GfCoZkiTduYrmV19w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
