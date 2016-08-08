@@ -47,7 +47,7 @@ public class TCCountUp : NSObject {
     public func startCountingUp() {
         
         if startStopWatch == true {
-            countUp = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("actuallyCountUp"), userInfo: nil, repeats: true)
+            countUp = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(TCCountUp.actuallyCountUp), userInfo: nil, repeats: true)
             
             startStopWatch = false
         }
@@ -55,8 +55,8 @@ public class TCCountUp : NSObject {
     
     func actuallyCountUp(){
         if countUp.valid == true {
-            seconds++
-            totalSeconds++
+            seconds += 1
+            totalSeconds += 1
             
             if seconds == 60 {
                 minutes += 1
@@ -120,7 +120,7 @@ public class TCCountDown : NSObject {
     public func startCountingDown() {
         
         if startStopWatch == true {
-            countDown = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("actuallyCountDown"), userInfo: nil, repeats: true)
+            countDown = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(TCCountDown.actuallyCountDown), userInfo: nil, repeats: true)
             
             startStopWatch = false
         }
