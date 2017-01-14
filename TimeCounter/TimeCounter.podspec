@@ -30,7 +30,7 @@ TimeCounter allows users to create timers in their applications.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TimeCounter/Classes/**/*'
+  s.source_files = 'TimeCounter/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'TimeCounter' => ['TimeCounter/Assets/*.png']
