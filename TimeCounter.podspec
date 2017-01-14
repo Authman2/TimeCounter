@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TimeCounter'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'An in-app timer for iOS applications.'
 
 # This description is used to generate tags and improve search results.
