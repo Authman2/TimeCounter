@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TimeCounter_Tests' do
+  pod 'TimeCounter', :path => '../'
+  
+  
+end

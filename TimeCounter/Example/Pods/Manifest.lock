@@ -1,0 +1,16 @@
+PODS:
+  - TimeCounter (0.1.0)
+
+DEPENDENCIES:
+  - TimeCounter (from `../`)
+
+EXTERNAL SOURCES:
+  TimeCounter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TimeCounter: b9aa82ebce3fa6ef743652ded4485d716a0dc6c8
+
+PODFILE CHECKSUM: baa1fec0d4c0daa7bf519cc8e0d2b5256cc9dfb9
+
+COCOAPODS: 1.1.1

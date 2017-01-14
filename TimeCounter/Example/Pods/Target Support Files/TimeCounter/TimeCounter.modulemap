@@ -1,0 +1,6 @@
+framework module TimeCounter {
+  umbrella header "TimeCounter-umbrella.h"
+
+  export *
+  module * { export * }
+}

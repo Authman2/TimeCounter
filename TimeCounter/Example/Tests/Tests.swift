@@ -1,15 +1,8 @@
-//
-//  TimeCounterTests.swift
-//  TimeCounterTests
-//
-//  Created by Adeola Uthman on 7/20/15.
-//  Copyright (c) 2015 Adeola Uthman. All rights reserved.
-//
-
 import UIKit
 import XCTest
+import TimeCounter
 
-class TimeCounterTests: XCTestCase {
+class Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -28,7 +21,7 @@ class TimeCounterTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock() {
+        self.measure() {
             // Put the code you want to measure the time of here.
         }
     }
